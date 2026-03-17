@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pandas
+pillow
+requests
+tqdm
+sentence-transformers
+faiss-cpu
+torch
+pytest
+numpy
+torchvision
+transformers

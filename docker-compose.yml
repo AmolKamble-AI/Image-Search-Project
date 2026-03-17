@@ -1,0 +1,19 @@
+docker-compose.yml
+
+version: "3.9"
+
+services:
+
+  image-search-api:
+
+    build: .
+
+    container_name: image_search_container
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - .:/app
+
+    restart: always
