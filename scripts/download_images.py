@@ -25,7 +25,7 @@ from PIL import Image
 from io import BytesIO
 from tqdm import tqdm
 
-def download_images(num_images=None, output_dir="images", target_size=(800, 800)):
+def download_images(num_images=100, output_dir="data/images", target_size=(800, 800)):
     """
     Download and optimize images from photos.csv
     
@@ -64,4 +64,4 @@ def download_images(num_images=None, output_dir="images", target_size=(800, 800)
 
 if __name__ == "__main__":
     # Download all images (or modify num_images to download fewer)
-    download_images(num_images=None)
+    download_images(num_images=100)
